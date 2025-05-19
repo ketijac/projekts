@@ -23,7 +23,7 @@ def izvele():
         elif komanda == "delete":
             delete_students()
         elif komanda == "exit":
-            print("Programma beidzas.")
+            print("Programma tiek pārtraukta.")
             break
         else:
             print("Nepareiza komanda. Mēģini vēlreiz.")
